@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+    color:rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(160, 18, 18);
+}
+
+div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    height: fit-content;
+
+    img {
+        width: 100%;
+        border-radius: 4px;
+    }
+}
+
+body {
+    background: #87878b;
+
+    > div.content {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
